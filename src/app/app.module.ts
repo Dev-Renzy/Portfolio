@@ -8,12 +8,12 @@ import { AppComponent } from './app.component';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { FormsModule } from '@angular/forms';
 import { AboutmeComponent } from './aboutme/aboutme.component';
-import { ResumeComponent } from './resume/resume.component';
 import { Routes, RouterModule } from '@angular/router';
+import { CoreskillsComponent } from './coreskills/coreskills.component';
+import { HobbiesComponent } from './hobbies/hobbies.component';
 
 const routes: Routes = [
   { path: '', component: AboutmeComponent },
-  { path: 'resume', component: ResumeComponent}
 ]
 
 
@@ -21,7 +21,8 @@ const routes: Routes = [
   declarations: [
     AppComponent,
     AboutmeComponent,
-    ResumeComponent,
+    CoreskillsComponent,
+    HobbiesComponent,
   ],
   imports: [
     RouterModule.forRoot(routes),
