@@ -15,16 +15,16 @@
         <a class="nav-link waves-light" mdbWavesEffect routerLink="/">About me</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link waves-light" mdbWavesEffect>Core Skills</a>
+        <a routerLink="/coreskills"  routerLinkActive="active" class="nav-link waves-light" mdbWavesEffect>Core Skills</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link waves-light" mdbWavesEffect>Projects</a>
+        <a routerLink="/projects" class="nav-link waves-light" mdbWavesEffect>Projects</a>
       </li>
       <li class="nav-item">
-          <a class="nav-link waves-light" mdbWavesEffect>Hobbies</a>
+          <a routerLink="/hobbies" class="nav-link waves-light" mdbWavesEffect>Hobbies</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link waves-light" mdbWavesEffect>Contacts</a>
+            <a routerLink="/contacts" class="nav-link waves-light" mdbWavesEffect>Contacts</a>
           </li>
 
     </ul>
@@ -33,18 +33,18 @@
 </mdb-navbar>
 
 <br>
-<app-aboutme></app-aboutme>
+<!-- <app-aboutme></app-aboutme> -->
+<router-outlet></router-outlet>
 <!-- <app-coreskills></app-coreskills> -->
 <!-- <app-hobbies></app-hobbies> -->
 <br><br>
-<!-- Footer -->
+
 <footer class="page-footer font-small black">
 
-  <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2020 Angularjs:
     <a href="">Renzy Portfolio</a>
   </div>
-  <!-- Copyright -->
+  
+  
 
 </footer>
-<!-- Footer -->
