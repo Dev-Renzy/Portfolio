@@ -50,5 +50,19 @@
     "tslint": "~5.15.0",
     "typescript": "~3.7.5"
   },
-  "license": "MIT"
+  "engines": {
+    "node": "10.15"
+  },
+  "license": "MIT",
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kugmota/Portfolio.git"
+  },
+  "author": "Renzy",
+  "bugs": {
+    "url": "https://github.com/Kugmota/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Kugmota/Portfolio#readme"
 }
